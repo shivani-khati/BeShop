@@ -8,14 +8,7 @@ import header from '../assets/header-logo.svg';
 export const HomeFixed = () => {
   return (
     <div>
-      <div className='Home-fixed'>
-        <div className='envato'>
-          <FcBusinesswoman style={{ marginRight: "8px", fontSize: "20px" }} />
-          <p style={{ fontWeight: "bolder", fontSize: "20px", marginRight: "4px" }}>envato</p>
-          <p style={{ fontSize: "19px" }}>master</p>
-        </div>
-        <button>Buy Now</button>
-      </div>
+     
      
       <div className="second-navbar">
       <div className="logo">
