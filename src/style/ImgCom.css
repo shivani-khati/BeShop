@@ -1,0 +1,60 @@
+.background-img {
+position: relative;
+width: 100%;
+overflow: hidden;
+}
+.img {
+  width: 100%;
+  display: block;
+  object-fit: cover; 
+}
+.image-overlay {
+  position: absolute;
+  top:56%;
+  left: 8%;
+  transform: translateY(-50%);
+  color: #333;
+  
+}
+
+.tagline {
+  font-family: "Dancing Script", cursive;
+  font-size: 3rem;
+  color: #C2185B;;
+line-height:0;
+}
+
+.headline {
+
+  font-size: 11em;
+  font-weight: lighter;
+  color: #111;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+margin-top:0 ;
+
+ 
+}
+
+.description {
+  font-size: 1.5rem;
+  color: #444;
+margin: 0;
+  line-height: 1em;
+  padding-bottom: 2em;
+}
+
+.shop-button {
+  background-color: black;
+  color: white;
+  padding: 18px 30px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+
+.shop-button:hover {
+  background-color: #e91e63;
+  box-shadow: 0 0 15px #e91e63;
+}

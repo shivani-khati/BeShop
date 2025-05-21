@@ -1,0 +1,96 @@
+.picture-4 {
+  margin-top: 9rem;
+  margin-bottom: 9rem;
+}
+
+.pictures-grid-4 {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.picture-card-4 {
+  position: relative;
+  width: 450px;
+  height: 600px;
+  overflow: hidden;
+  box-shadow: 0 8px 24px rgba(196, 36, 36, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.picture-card-4:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.15);
+}
+
+
+.picture-card-4 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.4s ease;
+}
+
+.picture-card-4::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(27, 17, 23, 0); 
+  transition: background-color 0.3s ease;
+  z-index: 1;
+}
+
+.picture-card-4:hover::after {
+  background-color: rgba(0, 0, 0, 0.3); 
+}
+
+
+.overlay-4 {
+ 
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2; 
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;     
+  text-align: center;
+  pointer-events: none; 
+
+}
+
+.overlay-4 h3 {
+  font-size: 1.7rem;
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+  color: #f0e9e9;
+
+}
+
+.overlay-4 p {
+  font-size: 0.95rem;
+  color: #ece5e5;
+  text-decoration: underline;
+  cursor: pointer;
+
+}
+.text-box-4 {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 1rem 1.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.text-box-4 h3,
+.text-box-4 p {
+  margin: 0;
+}
+

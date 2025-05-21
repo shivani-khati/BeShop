@@ -1,0 +1,19 @@
+.photo-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0; 
+  margin-top: 2rem;
+}
+
+.photo-gallery img {
+  width: 16.66%;
+  object-fit: cover;
+  height: 200px;
+  transition: transform 0.3s ease;
+}
+
+.photo-gallery img:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}

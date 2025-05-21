@@ -1,0 +1,66 @@
+.background-img-two {
+  display: flex;
+background: linear-gradient(to right, #f4b6ba, #e8a8a5, #e99fa8);
+
+  align-items: center;
+  justify-content: center;
+  padding: 0rem;
+}
+
+.img-two {
+  width: 60%;
+  height: 40em;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.image-overlay-two {padding-bottom: 8rem;
+  width: 40%;
+  padding-left: 4rem;
+  color: #fff;
+  
+}
+
+.tagline-two {
+ font-family: "Dancing Script", cursive;
+  font-size: 3rem;
+  color: #C2185B;;
+line-height:0;
+font-weight: bolder;
+}
+
+.headline-two {
+  font-size: 5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #fff;
+  
+}
+
+.fifty {
+  color:#C2185B;
+
+}
+
+.description-two {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+  color: #fffafadb;
+}
+
+.get-now {
+  padding: 0.89rem 1.9rem;
+  background-color:#C2185B;;
+  color: #ebe0e2;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.get-now:hover {
+  background-color: #0d0c0c;
+  color: #f7eaea;
+}

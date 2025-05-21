@@ -1,0 +1,65 @@
+.contact-para-container {
+ 
+  max-width: 11000px;
+
+  display: flex;
+  justify-content: space-between;
+ gap: 6rem;
+
+
+}
+
+.contact-para-text {
+   
+  flex: 1 1 60%;
+  margin-bottom: 2rem;
+  margin-left: 8rem;
+ 
+}
+
+.contact-para-text h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #111;
+}
+
+.contact-para-text p {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #555;
+  max-width: 800px;
+}
+
+.contact-social {
+ 
+  flex: 1 1 10%;
+  margin-top: 1rem;
+}
+
+.contact-social h4 {
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-bottom: 0.8rem;
+  color: #111;
+}
+
+.social-icons-1 {
+  display: flex;
+  gap: 20px;
+}
+
+.social-icons-1 svg {
+  font-size: 1.2rem;
+  color: #333;
+  background: #f4f4f4;
+  padding: 8px;
+  border-radius: 4px;
+ 
+  cursor: pointer;
+}
+
+.social-icons-1 svg:hover {
+  background: #e91e63;
+  color: #fff;
+}

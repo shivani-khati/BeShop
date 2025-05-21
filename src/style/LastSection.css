@@ -1,0 +1,110 @@
+.footer {
+  background-color: #FFEFEF;
+  color: rgb(11, 0, 0);
+  padding: 3rem 3rem;
+  font-family: Arial, sans-serif;
+}
+.inner-footer{
+    padding: 01rem 7rem;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  border-bottom: 1px solid #e9c6c6;
+  padding-bottom: 2rem;
+}
+
+.social-section p {
+  margin-bottom: 0.5rem;
+}
+
+.social-icons {
+  display: flex;
+  gap: 10px;
+  font-size: 1.2rem;
+}
+
+.social-icons svg {
+  color: rgb(250, 159, 211);
+  cursor: pointer;
+}
+
+.logo-center {
+  text-align: center;
+  
+  display:flex;
+  
+}
+
+.logo-center img {
+  max-width: 150px;
+  height: auto;
+  margin-bottom: 1rem;
+  margin-right:24rem ;
+  color: #FFEFEF;
+  
+  
+}
+
+
+.payment-icons img {
+  width: 40px;
+  margin: 0 5px;
+}
+
+
+.footer-bottom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 2rem 0;
+}
+
+.footer-column {
+  flex: 1 1 200px;
+  margin-bottom: 1.5rem;
+}
+
+.footer-column h4 {
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+  border-bottom: 1px solid #d4a1a1;
+  padding-bottom: 0.5rem;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+}
+
+.contact-info p {
+  margin-bottom: 0.5rem;
+}
+
+.footer-copy {
+  text-align: center;
+  border-top: 1px solid #c59f9f;
+  padding-top: 1rem;
+  font-size: 0.9rem;
+}
+.social-icons button {
+  background-color: #333;
+  border: none;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+
+}
+
+.social-icons button:hover {
+  background-color: #555;
+}

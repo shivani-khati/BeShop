@@ -1,0 +1,66 @@
+.wishlist-container {
+  padding: 40px;
+  background-color: #fff;
+}
+
+.wishlist-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.wishlist-table th,
+.wishlist-table td {
+  padding: 15px;
+  border-bottom: 1px solid #eee;
+}
+
+.wishlist-product {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.wishlist-product img {
+  width: 60px;
+  height: auto;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+.status-in-stock {
+  color: green;
+  font-weight: bold;
+}
+
+.status-out {
+  color: grey;
+  text-decoration: line-through;
+}
+
+.buy-now {
+  color: #e91e63;
+  cursor: pointer;
+  font-weight: bold;
+}
+.wishlist-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.clear-btn {
+  background-color: #f44336;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.2s ease;
+}
+
+.clear-btn:hover {
+  background-color: #d32f2f;
+}
